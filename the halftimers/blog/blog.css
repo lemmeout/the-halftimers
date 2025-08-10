@@ -1,0 +1,256 @@
+body {
+  padding: 0%;
+  margin: 0%;
+  background-color: rgba(25, 96, 202, 0.138);
+}
+
+
+
+.icon {
+    font-family: "Font Awesome 5 Free";
+    display: inline-block;
+    text-rendering: auto;
+    font-weight: 900;
+    font-style: normal;
+    font-variant: normal;
+    -webkit-font-smoothing: antialiased;
+}
+
+
+
+
+.headers {
+  display: flex;
+  min-height: 100px;
+  position: fixed;
+  background-color: white;
+  width: 100%;
+  z-index: 12;
+}
+.buttons {
+  margin-left: 700px;
+  padding-top: 33px;
+  display: flex;
+  flex-direction: row;
+}
+.buttons a {
+  padding-right: 60px;
+  padding-left: 60px;
+  font-size: 17px;
+  color: black;
+  text-decoration: none;
+  font-weight: 500;
+}
+.buttons a:hover {
+  color: rgb(245, 149, 6);
+}
+.nameOfTeam {
+  padding-left: 60px;
+  font-style: italic;
+}
+
+
+
+.sidebar-container {
+  position: absolute;
+}
+.sideBar{
+  display:flex;
+  
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position:fixed;
+  height: 100%;
+  z-index: 100;
+  margin-left:95% ;
+}
+
+
+
+
+.blogImage{
+    display: grid;
+    margin-left: 90px;
+
+}
+.blogImage>h1{
+    color: rgb(235, 69, 50);
+    position: absolute;
+    font-size: 60px;
+    margin: 292px 0px 0px 1300px;
+    font-style: italic;
+}
+.littleMenu{
+
+    display: flex;
+    margin: -40px 30px 0px 30px;
+    z-index: 9;
+    background-color: rgb(226, 235, 248);;
+
+}
+.littleMenu>ul{
+    padding-top: 70px;
+}
+.littleMenu>ul>a{
+    text-decoration: none;
+    font-size: 20px;
+    padding-right: 15px;
+    font-weight: 900;
+    color: black;
+}
+
+
+
+
+
+.postsC{
+  display: flex;
+  border-width: 4px;
+  margin-bottom: 70px;
+  margin-top: 20px;
+}.leftSide1{
+  display: flex;
+  flex-direction: row;
+  margin-left:170px;
+  margin-right: 130px;
+}
+.rightSide1{
+    margin-top: 20px;
+    display:flex;
+    flex-direction: column;
+    margin-left: 60px;
+    margin-right: 200px;
+}
+.rightSide1::before{
+  content:"\f2bd" ;
+  display: flex;
+  flex-direction: row;
+  font-size: 40px;
+}
+.rightSide1>.userIcon1{
+  font-size: 14px;
+  margin-top: 0px;
+}
+.rightSide1>h2{
+  margin-top: 28px;
+  color: rgb(252, 135, 46);
+  font-size: 40px;
+}
+.rightSide1>p{
+  font-size: 25px;
+  color: rgb(106, 90, 90);
+}
+.rightSide1>h2:hover{
+  color: black;
+  cursor: pointer;
+}
+.lineForPosts{
+  border-style:solid ;
+  margin-top: 20px;
+}
+.emojies{
+  display: flex;
+ 
+}
+.emojies>p{
+  margin-right:18px;
+  font-weight: 300;
+}
+.emojies>.loveEmoji{
+  margin-right: 0px;
+  margin-left: 570px;
+}
+.loveEmoji::after{
+  content: "\f004";
+  margin-left: 4px;
+  font-weight: 400;
+  color: red;
+}
+.loveEmoji:hover{
+  text-decoration: underline;
+  color: blue;
+  cursor: crosshair;
+}
+
+
+
+.samurai {
+  display: flex;
+  background-image: url(images/samurai.jpg);
+  width: 100%;
+  height: 400px;
+  margin-right: 0px;
+  background-size: cover;
+  margin-top: 100px;
+}
+.samurai1{
+  position: absolute;
+  
+}
+.samurai1>h1{
+  margin: 60px 0px 20px 60px;
+  font-size: 40px;
+  color: rgb(0, 0, 0);
+  font-style: italic;
+}
+.samurai1>p{
+  margin: 40px 0px 0px 60px;
+  color: rgb(255, 255, 255);
+}
+.bottom{
+  display: flex;
+  flex-direction: row;
+  margin-left: 20px;
+  margin-top: 40px;
+}
+.bottom>ul>a{
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+  font-size: 17px;
+  font-weight: 700;
+}
+.socialMedias{
+  display: flex;
+  flex-direction: row;
+  margin-left: 20px;
+}
+.samurai2{
+  position: absolute;
+  margin-left: 1300px;
+}
+.samurai2>h3{
+  margin: 40px 0px 30px 0px;
+  font-size: 30px;
+}
+.email>p{
+  margin-top: 80px;
+  margin-bottom: 5px;
+}
+.enterEmail{
+  display: inline-flex;
+  border: none;
+
+}
+.enterEmail>span>input{
+  height: 30px;
+  width: 250px;
+  font-size: 17px;
+  color: black;
+  font-weight: 600;
+}
+.submit__text{
+  display: flex;
+  border-style: solid;
+  border-left: none;
+  border-width: 1px;
+  align-items: center;
+  background-color: coral;
+  padding: 0px 10px;
+}
+.submit__text:hover{
+  cursor: pointer;
+  background-color: rgb(180, 68, 27);
+  color: aliceblue;
+  transition: 1000ms;
+}
